@@ -3,9 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
-
+/* imposto sfondo in body */
 body {
   background-image: url(../img/sfondo.png);
   background-repeat: no-repeat;
@@ -14,9 +12,9 @@ body {
 
 
 
-/* header */
-header {
-}
+/* inizio header */
+
+/* inizio banner con immagine e testo */
 
  .logo {
   height: 225px;
@@ -27,7 +25,6 @@ header {
 }
 
 .testo {
-
   color: white;
   position: absolute;
   left: 50% ;
@@ -39,14 +36,15 @@ h1 {
   padding:5px;
   margin: 17px;
 }
+/* fine banner con immagine e testo */
 
-
+/* inizio menu */
 .menu {
-  height: 30px;
+  height: 50px;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: center; /* ricorda che text align center va dato al padre e non ad li */
   background: #5B4C49;
 }
 
@@ -61,19 +59,7 @@ li a {
   padding: 8px;
   text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* fine menu */
 
 
 
