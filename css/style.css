@@ -11,7 +11,6 @@ body {
 }
 
 /* inizio header */
-
 /* inizio banner con immagine e testo */
 .logo {
   height: 225px;
@@ -28,6 +27,7 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
 h1 {
   border: 3px solid white;
   padding:5px;
@@ -57,11 +57,10 @@ li {
   text-decoration: none;
 }
 /* fine menu */
+/* fine header */
 
 
-
-
-/* main */
+/* inizio  main */
 main {
   margin: 10px 0;
 }
@@ -80,27 +79,29 @@ main .col {
 }
 
 
-/*  colonna sinistra */
+/*  inizio colonna sinistra */
 main .left {
   background: white;
   width: 20%;
   height: 300px;
   border: 2px solid white;
-  border-radius: 10px;
+  border-radius: 6px;
   margin-left: 15px;
 }
 .left h3 {
  margin-bottom: 10px;
 }
+/* fine colonna sinistra */
 
 /*  colonna centrale */
 main .center {
   background: white;
-  width: 40%;
+  width: 45%;
   margin: 0 5% 0 5%;
   border: 2px solid white;
-  border-radius: 10px;
+  border-radius: 6px;
 }
+/* fine colonna centrale */
 
 /* inizio colonna destra */
 main .right {
@@ -112,7 +113,7 @@ main .right {
   background: white;
   width: 100%;
   border: 2px solid white;
-  border-radius: 10px;
+  border-radius: 6px;
 
 }
 
@@ -120,8 +121,9 @@ main .right {
   margin-bottom: 20px;
 }
 /* fine colonna destra /*
+/* fine main */
 
-/* footer  */
+/* inizio footer  */
 footer {
   background: white;
   text-align: center;
@@ -139,6 +141,9 @@ footer::after {
   display:table;
   clear: both;
 }
-footer .colonna .i {
+/* ho provato in tutti i modi di selezionare le icone sul css ma non sono riuscita */
+ .colonna .i {
   height: 30px;
+  margin: 10px;
 }
+/* fine footer */
