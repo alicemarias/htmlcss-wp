@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background-image: url(../img/sfondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* header */
+header {
+}
+
+ .logo {
+  height: 225px;
+  background-image:url(../img/albero.jpg);
+  text-align: center;
+  position: relative;
+  border: 8px solid white;
+}
+
+.testo {
+
+  color: white;
+  position: absolute;
+  left: 50% ;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  border: 3px solid white;
+  padding:5px;
+  margin: 17px;
+}
+
+
+.menu {
+  height: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #5B4C49;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main */
+main {
+  margin: 10px 0;
+}
+
+/* clearfix impostato sul main */
+main::after {
+  content: '';
+  display:table;
+  clear: both;
+}
+
+/* float left colonne main */
+main .col {
+  float:left;
+}
+
+
+/*  colonna sinistra */
+main .left {
+  background: white;
+  width: 20%;
+  height: 300px;
+}
+
+/*  colonna centrale */
+main .center {
+  background: white;
+  width: 40%;
+  margin: 0 5% 0 5%;
+}
+
+/* inizio colonna destra */
+main .right {
+  width: 50%;
+  height: 400px;
+  width: 20%;
+  height: 250px;
+
+}
+
+.widget {
+  margin-bottom: 10px;
+  background: white;
+  width: 100%;
+  height: 40%;
+}
+
+.widget:last-child {
+  margin-bottom: 0;
+}
+/* fine colonna destra /*
+
+/* footer  */
+footer {
+  background: white;
+  height: 100px;
+}
