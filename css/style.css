@@ -42,14 +42,14 @@ h1 {
   margin: 0;
   padding: 0;
   text-align: center; /* ricorda che text align center va dato al padre e non ad li */
-  background: #5B4C49;
+  background: #585756;
 }
 
 li {
   display: inline-block;
 }
 
-li a {
+.menu li a {
   display: block;
   color: white;
   text-align: center;
@@ -87,6 +87,10 @@ main .left {
   height: 300px;
   border: 2px solid white;
   border-radius: 10px;
+  margin-left: 15px;
+}
+.left h3 {
+ margin-bottom: 10px;
 }
 
 /*  colonna centrale */
@@ -120,4 +124,21 @@ main .right {
 /* footer  */
 footer {
   background: white;
+  text-align: center;
+  color: grey;
+}
+
+footer .colonna {
+  float:left;
+  text-align: center;
+  width: 33%;
+}
+
+footer::after {
+  content: '';
+  display:table;
+  clear: both;
+}
+footer .colonna .i {
+  height: 30px;
 }
