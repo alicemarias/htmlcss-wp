@@ -26,12 +26,14 @@ body {
   left: 50% ;
   top: 50%;
   transform: translate(-50%, -50%);
+  font-family: arial;
 }
 
 h1 {
   border: 3px solid white;
   padding:5px;
   margin: 17px;
+  font-family: arial;
 }
 /* fine banner con immagine e testo */
 
@@ -55,6 +57,7 @@ li {
   text-align: center;
   padding: 8px;
   text-decoration: none;
+  font-family: arial;
 }
 /* fine menu */
 /* fine header */
@@ -76,6 +79,7 @@ main::after {
 main .col {
   float:left;
   text-align: center;
+  font-family: arial;
 }
 
 
@@ -87,9 +91,15 @@ main .left {
   border: 2px solid white;
   border-radius: 6px;
   margin-left: 15px;
+
 }
 .left h3 {
  margin-bottom: 10px;
+ color:white;
+}
+ .link {
+  color:green;
+  font-family: arial;
 }
 /* fine colonna sinistra */
 
@@ -99,7 +109,7 @@ main .center {
   width: 45%;
   margin: 0 5% 0 5%;
   border: 2px solid white;
-  border-radius: 6px;
+  border-radius: 4px;
 }
 /* fine colonna centrale */
 
@@ -113,7 +123,8 @@ main .right {
   background: white;
   width: 100%;
   border: 2px solid white;
-  border-radius: 6px;
+  border-radius: 4px;
+  font-family: arial;
 
 }
 
@@ -128,6 +139,8 @@ footer {
   background: white;
   text-align: center;
   color: grey;
+  font-family: arial;
+  font-style: italic;
 }
 
 footer .colonna {
