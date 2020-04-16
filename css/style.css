@@ -10,13 +10,10 @@ body {
   background-size: cover;
 }
 
-
-
 /* inizio header */
 
 /* inizio banner con immagine e testo */
-
- .logo {
+.logo {
   height: 225px;
   background-image:url(../img/albero.jpg);
   text-align: center;
@@ -79,6 +76,7 @@ main::after {
 /* float left colonne main */
 main .col {
   float:left;
+  text-align: center;
 }
 
 
@@ -87,6 +85,8 @@ main .left {
   background: white;
   width: 20%;
   height: 300px;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 /*  colonna centrale */
@@ -94,31 +94,30 @@ main .center {
   background: white;
   width: 40%;
   margin: 0 5% 0 5%;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 /* inizio colonna destra */
 main .right {
-  width: 50%;
-  height: 400px;
   width: 20%;
-  height: 250px;
-
 }
 
 .widget {
-  margin-bottom: 10px;
+  margin-bottom: 17px;
   background: white;
   width: 100%;
-  height: 40%;
+  border: 2px solid white;
+  border-radius: 10px;
+
 }
 
 .widget:last-child {
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 /* fine colonna destra /*
 
 /* footer  */
 footer {
   background: white;
-  height: 100px;
 }
