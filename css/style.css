@@ -13,7 +13,7 @@ body {
 /* inizio header */
 /* inizio banner con immagine e testo */
 .logo {
-  height: 225px;
+  height: 300px;
   background-image:url(../img/albero.jpg);
   text-align: center;
   position: relative;
@@ -103,6 +103,14 @@ main .left {
  margin-bottom: 10px;
 
 }
+/* devo mettere margin bottom ad
+li poichè il reset ad inizio
+css li fa andare tutti attaccati.
+se metti margin bottom ad a invece
+che a li non funziona */
+main .left li {
+  margin-bottom: 7px;
+}
  .link {
   color:green;
   font-family: arial;
@@ -156,6 +164,9 @@ footer .colonna {
   float:left;
   text-align: center;
   width: 33%;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 footer::after {
@@ -163,9 +174,5 @@ footer::after {
   display:table;
   clear: both;
 }
-/* ho provato in tutti i modi di selezionare le icone sul css ma non sono riuscita */
- .colonna .i {
-  height: 30px;
-  margin: 10px;
-}
+
 /* fine footer */
